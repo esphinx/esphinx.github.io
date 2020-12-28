@@ -624,7 +624,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Header-Example:",
-          "content": "{\n   \"version\": \"xxxxx\",\n   \"token\": \"xxxx.xxxx.xxxx\"\n}",
+          "content": "{\n   \"version\": \"xxxxx\"\n}",
           "type": "json"
         }
       ]

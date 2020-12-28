@@ -620,6 +620,15 @@ define({ "api": [
     "title": "Inciar sesión al usuario",
     "name": "IniciarSesión",
     "group": "Auth",
+    "header": {
+      "examples": [
+        {
+          "title": "Header-Example:",
+          "content": "{\n   \"version\": \"xxxxx\",\n   \"token\": \"xxxx.xxxx.xxxx\"\n}",
+          "type": "json"
+        }
+      ]
+    },
     "parameter": {
       "fields": {
         "Parameter": [
@@ -2666,7 +2675,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Header-Example:",
-          "content": "{\n   \"version\": \"xxxxx\",\n   \"token\": \"xxxx.xxxx.xxxx\"\n}",
+          "content": "{\n   \"version\": \"xxxxx\",\n}",
           "type": "json"
         }
       ]
